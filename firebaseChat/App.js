@@ -1,11 +1,7 @@
 import React,{Component} from 'react'
-import {Router,Scene, Actions} from 'react-native-router-flux'
-import About from './src/component/About'
 import Home from './src/component/Home'
 import ProfileInfo from './src/component/ProfileInfo'
-import CompanyInfo from './src/component/CompanyInfo'
 import SignIn from './src/component/SignIn'
-import Job from './src/component/Job'
 import SignUp from './src/component/SignUp'
 import {createStackNavigator} from 'react-navigation'
 import SplashScreen from './src/component/SplashScreen'
@@ -31,6 +27,7 @@ class App extends Component{
 }
 
 const AppStackNavigator = createStackNavigator({
+  home: Home,
   splash: SplashScreen,
   login : SignIn,
   signUp: SignUp, 
