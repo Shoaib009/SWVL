@@ -1,10 +1,12 @@
 import React,{Component} from 'react'
-import Home from './src/component/Home'
-import ProfileInfo from './src/component/ProfileInfo'
-import SignIn from './src/component/SignIn'
-import SignUp from './src/component/SignUp'
+//import Home from './src/component/Home/Home'
+// import ProfileInfo from './src/component/Profile/ProfileInfo'
+// import SignIn from './src/component/Login/SignIn'
+// import SignUp from './src/component/Register/SignUp'
 import {createStackNavigator} from 'react-navigation'
-import SplashScreen from './src/component/SplashScreen'
+import SplashScreen from './src/component/Splash/SplashScreen'
+import Login from './src/component/Login/Login'
+
 
  
 class App extends Component{
@@ -15,23 +17,17 @@ class App extends Component{
   
   render(){
     return(
-      // <Router>
-      //   <Scene key="root">
-      //     <Scene key="home" component={Home} title="First Screen" initial={true}/>
-      //     <Scene key="about" component={About} title="Second Screen"/>
-      //   </Scene>
-      // </Router>
       <AppStackNavigator />
     )
   }
 }
 
 const AppStackNavigator = createStackNavigator({
-  home: Home,
+  //login: Login,
   splash: SplashScreen,
-  login : SignIn,
-  signUp: SignUp, 
-  profile: ProfileInfo, 
+  // login : SignIn,
+  // signUp: SignUp, 
+  // profile: ProfileInfo, 
 },
 { headerMode: 'none' })
 
