@@ -20,12 +20,10 @@ export default class Register extends Component {
                 <TextInput
                     style={styles.inputStyleOne}
                     placeholder="Ahmed"
-                    secureTextEntry
+                    
                 />
                 </View>
                 </View>
-                {/* <Text>{'\n'}</Text>
-                <Text>{'\n'}</Text> */}
                 <Text style={styles.labelStyle}>COUNTRY :</Text>
                 <TextInput
                     style={styles.inputStyle}
@@ -35,7 +33,7 @@ export default class Register extends Component {
                 <TextInput
                     style={styles.inputStyle}
                     placeholder="david@gmail.com"
-                    secureTextEntry
+                    
                 />
                  <Text style={styles.labelStyle}>MOBILE :</Text>
                 <TextInput
@@ -52,11 +50,13 @@ export default class Register extends Component {
                     <Text style={styles.btnText}>Register</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.btnStyleOne}>
-                    <Text style={styles.btnTextOne}>By Sign up you agree out Terms and Conditions.</Text>
+                    <Text style={styles.btnTextOne}>By Sign up you agree out
+                    <Text style={styles.txtColor}>  Terms and Conditions.</Text></Text>
                 </TouchableOpacity>
                 <View style={styles.ContainerThree}>
                 <TouchableOpacity style={styles.btnStyleOne}>
-                    <Text style={styles.btnTextOne}> Already have an account?Login</Text>
+                    <Text style={styles.btnTextOne}> Already have an account?
+                    <Text style={styles.txtColor}> Login</Text></Text>
                 </TouchableOpacity>
                 </View>
             </ScrollView>

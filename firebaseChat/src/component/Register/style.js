@@ -66,10 +66,17 @@ export default StyleSheet.create({
         fontSize: 16,
     },
     btnTextOne: {
-        color: '#E52A3F',
+        color: '#000000',
         fontFamily: 'regular',
         fontSize: 14,
         opacity: 0.9
+    },
+    txtColor:{
+        color: '#E52A3F',
+        fontFamily: 'regular',
+        fontSize: 14,
+        opacity: 0.9,
+        fontWeight:'bold'
     },
     ContainerThree: {
         flex: 1,
