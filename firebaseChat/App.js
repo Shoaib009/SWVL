@@ -5,6 +5,7 @@ import React,{Component} from 'react'
 // import SignUp from './src/component/Register/SignUp'
 import {createStackNavigator} from 'react-navigation'
 import SplashScreen from './src/component/Splash/SplashScreen'
+import Register from './src/component/Register/Register'
 import Login from './src/component/Login/Login'
 
 
@@ -24,6 +25,7 @@ class App extends Component{
 
 const AppStackNavigator = createStackNavigator({
   //login: Login,
+  register: Register,
   splash: SplashScreen,
   // login : SignIn,
   // signUp: SignUp, 
