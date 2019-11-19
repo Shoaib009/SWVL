@@ -4,9 +4,10 @@ import React,{Component} from 'react'
 // import SignIn from './src/component/Login/SignIn'
 // import SignUp from './src/component/Register/SignUp'
 import {createStackNavigator} from 'react-navigation'
-import SplashScreen from './src/component/Splash/SplashScreen'
-import Register from './src/component/Register/Register'
-import Confirmation from './src/component/Confirmation/Confirmation'
+//import SplashScreen from './src/component/Splash/SplashScreen'
+//import Register from './src/component/Register/Register'
+//import Confirmation from './src/component/Confirmation/Confirmation'
+import Details from './src/component/Details/Details'
 import Login from './src/component/Login/Login'
 
 
@@ -26,9 +27,10 @@ class App extends Component{
 
 const AppStackNavigator = createStackNavigator({
   //login: Login,
-  confirmation: Confirmation,
-  register: Register,
-  splash: SplashScreen,
+  detail : Details,
+ // confirmation: Confirmation,
+  //register: Register,
+ // splash: SplashScreen,
   // login : SignIn,
   // signUp: SignUp, 
   // profile: ProfileInfo, 
