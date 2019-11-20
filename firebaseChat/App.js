@@ -8,6 +8,7 @@ import {createStackNavigator} from 'react-navigation'
 //import Register from './src/component/Register/Register'
 //import Confirmation from './src/component/Confirmation/Confirmation'
 import Details from './src/component/Details/Details'
+import Test from './src/component/Testing/Test'
 import Login from './src/component/Login/Login'
 
 
@@ -27,7 +28,8 @@ class App extends Component{
 
 const AppStackNavigator = createStackNavigator({
   //login: Login,
-  detail : Details,
+  test: Test,
+  //detail : Details,
  // confirmation: Confirmation,
   //register: Register,
  // splash: SplashScreen,
