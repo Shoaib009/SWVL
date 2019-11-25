@@ -34,7 +34,7 @@ export default class Property extends Component {
                      <Right>
                             <Button transparent>
                                 <Text style={styles.btnTxtStyle1}>View More</Text>
-                                <Icon style={styles.iconStyle1} name='arrow-down' />
+                                <Icon style={styles.iconStyle1} name='md-arrow-down' />
                             </Button>
                         </Right>
                     </View>
@@ -42,7 +42,52 @@ export default class Property extends Component {
                 </View>
                 {/* <Text>bottom div</Text> */}
                 <View style={styles.bottom}>
+                    <View style={styles.bottomItem}>
+                        <Text>
+                        <Text style={styles.bottomItemHeading}>Mark Villas</Text><Text>{"\n"}</Text>
+                        <Text style={styles.bottomItemTxt}>Renatl Date : 5th Monthly</Text><Text>{"\n"}</Text>
+                        <Text style={styles.bottomItemTxt}>Block 12, Level 8, Unit 5</Text><Text>{"\n"}</Text>
+                        <Text style={styles.bottomItemTxt}>Past date : 20 April 2018</Text>
+                        </Text>
+                        <Button style={styles.btnStyle1}>
+                            <Text style={styles.btnTxtStyle2}>Vacant
+                            </Text>
+                        </Button>
+
+                    </View>
+
+                    <View style={styles.bottomItem}>
+                        <Text>
+                        <Text style={styles.bottomItemHeading}>Mark Villas</Text><Text>{"\n"}</Text>
+                        <Text style={styles.bottomItemTxt}>Renatl Date : 5th Monthly</Text><Text>{"\n"}</Text>
+                        <Text style={styles.bottomItemTxt}>Block 12, Level 8, Unit 5</Text><Text>{"\n"}</Text>
+                        <Text style={styles.bottomItemTxt}>Past date : 20 April 2018</Text>
+                        </Text>
+                        <Button style={styles.btnStyle1}>
+                            <Text style={styles.btnTxtStyle2}>Vacant
+                            </Text>
+                        </Button>
+                         </View>
                     
+                </View>
+                {/* <Text>footer tab on the screen</Text> */}
+                <View style={styles.footer}>
+                    <View style={styles.footerItem}>
+                        <Icon style={styles.iconStyle2} name="home"><Text>{"\n"}</Text>
+                            <Text>Property</Text>
+                        </Icon>
+                        <Icon style={styles.iconStyle2} name="person"><Text>{"\n"}</Text>
+                            <Text>Profile</Text>
+                        </Icon>
+                        <Icon style={styles.iconStyle2} name="md-text"><Text>{"\n"}</Text>
+                            <Text>Message</Text>
+                        </Icon>
+                        <Icon style={styles.iconStyle2} name="settings"><Text>{"\n"}</Text>
+                            <Text>Settings</Text>
+                        </Icon>
+
+                    </View>
+
                 </View>
 
 
